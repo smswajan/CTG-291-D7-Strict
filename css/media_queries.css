@@ -4,6 +4,10 @@
         font-size: 60px;
     }
 
+    .line-animated {
+        width: 70%;
+    }
+
     .section-five-container {
         width: 100%;
     }
@@ -29,6 +33,10 @@
 @media (min-width: 769px) and (max-width: 1200px) {
     .banner__heading {
         font-size: 120px;
+    }
+
+    .line-animated {
+        width: 100%;
     }
 
     .section-five-container {
