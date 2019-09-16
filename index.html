@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="img/fabicon.png" type="image/x-icon" />
+        <title>STRICT</title>
+
+        <!--FontAwesome icons-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+        <!--Google Fonts-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Bootstrap CDN -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+
+        <!--External CSS-->
+        <link rel="stylesheet" href="css/preview.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/preview.css" />
+        <link rel="stylesheet" href="css/animation.css" />
+        <link rel="stylesheet" href="css/media_queries.css" />
+    </head>
+    <body>
+        <!--Header Part-->
+        <header>
+            <div class="container">
+                <img src="img/logo.png" alt="STRICT" class="my-4" />
+            </div>
+        </header>
+
+        <!--Banner-->
+        <div class="jumbotron banner rounded-0 m-0 p-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-sm-6">
+                        <h1 class="banner__heading">STRICT</h1>
+                        <span class="line-animated"></span>
+                        <p class="banner__paragraph">
+                            STRICT is a responsive theme with a clean and
+                            minimal look.
+                        </p>
+                        <a href="#" class="banner__btn btn-animated"
+                            >Call to action</a
+                        >
+                        <i
+                            class="fa fa-chevron-down btn-animated chevron-down"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Section Simple & Pure design-->
+        <section class="jumbotron rounded-0 m-0">
+            <div class="container text-center">
+                <h2 class="section-two__header">
+                    Simple & Pure Design
+                </h2>
+                <p class="section-two__paragraph">
+                    Designers everywhere gush with admiration upon seeing a web
+                    design and exclaim "its beautiful, it's so clean!". There
+                    are a countless number of webdesign round-ups dedicated to
+                    'clean' design and it is a term thrown around quite a bit in
+                    the web design community. It can be easy to spot a good
+                    example of clean design.
+                </p>
+            </div>
+        </section>
+
+        <!--Section Three-->
+        <section class="jumbotron bg-white rounded-0 m-0">
+            <div class="container">
+                <div class="row">
+                    <!--Content One-->
+                    <div class="col-md-4 text-center">
+                        <div class="section-three__img">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-three__heading">
+                            Optimized for all devices
+                        </h3>
+                        <p class="section-three__paragraph">
+                            STRICT has been designed to be fully responsive on
+                            all devices
+                        </p>
+                    </div>
+
+                    <!--Content Two-->
+                    <div class="col-md-4 text-center">
+                        <div class="section-three__img">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-three__heading">
+                            Clean & Minimal Design
+                        </h3>
+                        <p class="section-three__paragraph">
+                            This multipurpose theme is especially created to be
+                            used for different projects.
+                        </p>
+                    </div>
+
+                    <!--Content Three-->
+                    <div class="col-md-4 text-center">
+                        <div class="section-three__img">
+                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-three__heading">
+                            Font Awesome Icon
+                        </h3>
+                        <p class="section-three__paragraph">
+                            This multipurpose theme is especially created to be
+                            used for different projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Image Gallery - Section Four-->
+        <section class="jumbotron rounded-0 m-0">
+            <div class="container text-center">
+                <!--Content Heading & Paragraph-->
+                <h2 class="section-four__heading">
+                    Showcase your work like a pro
+                </h2>
+                <p class="section-four__paragraph">
+                    Contace me if you like my work
+                </p>
+                <!--Image Gallery-->
+                <div class="row">
+                    <!-- Image One -->
+                    <div class="col-md-4 col-sm-6 col-6  img-container">
+                        <div class="wrapper">
+                            <img src="img/img-1.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Two -->
+                    <div class="col-md-4 col-sm-6  col-6 img-container">
+                        <div class="wrapper">
+                            <img src="img/img-2.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Three -->
+                    <div class=" col-md-4 col-sm-6 col-6 img-container">
+                        <div class="wrapper">
+                            <img src="img/img-3.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 img-container">
+                        <div class="wrapper">
+                            <img src="img/img-4.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Two -->
+                    <div class="col-md-4 col-sm-6 col-6 img-container">
+                        <div class="wrapper">
+                            <img src="img/img-5.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Three -->
+                    <div class="col-md-4 col-sm-6 col-6 img-container">
+                        <div class="wrapper">
+                            <img src="img/img-6.png" alt="" class="image" />
+                            <div class="overlay">
+                                <div class="overlay__icons">
+                                    <i
+                                        class="fa fa-search-plus"
+                                        aria-hidden="true"
+                                        onclick="openModal();currentSlide(1)"
+                                    ></i>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Five - form -->
+        <section class="jumbotron rounded-0 m-0 section-five">
+            <div class="container text-center section-five-container">
+                <!-- Heading & Paragraph -->
+                <h2 class="section-five__heading">Stay with us</h2>
+                <p class="section-five__paragraph">
+                    We ensure quality & support
+                </p>
+
+                <!-- Form -->
+                <form class="col align-self-center">
+                    <div class="form-group form-custom">
+                        <input
+                            type="text"
+                            class="form-control-xl"
+                            placeholder="Full Name"
+                        />
+                    </div>
+                    <div class="form-group form-custom">
+                        <input
+                            type="email"
+                            class="form-control-xl"
+                            placeholder="Email Address"
+                        />
+                    </div>
+
+                    <div class="form-group form-custom">
+                        <textarea
+                            placeholder="Message"
+                            class="form-control"
+                            rows="3"
+                        ></textarea>
+                    </div>
+                    <div class="parent">
+                        <div class="check">
+                            <input type="checkbox" />
+                            <label>Subscribe Newsletter</label>
+                        </div>
+
+                        <input
+                            type="submit"
+                            class="banner__btn submit"
+                            value="Send"
+                        />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="copy-right">
+                    <p>Copyright 2014, STRICT</p>
+                </div>
+                <div class="social-icons">
+                    <p>
+                        <i
+                            class="footer-icon fa fa-facebook"
+                            aria-hidden="true"
+                        ></i>
+                        <i
+                            class="footer-icon fa fa-twitter"
+                            aria-hidden="true"
+                        ></i>
+
+                        <i
+                            class="footer-icon fa fa-google-plus"
+                            aria-hidden="true"
+                        ></i>
+                        <i
+                            class="footer-icon fa fa-linkedin"
+                            aria-hidden="true"
+                        ></i>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--JavaScript-->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
