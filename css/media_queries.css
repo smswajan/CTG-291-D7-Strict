@@ -1,0 +1,39 @@
+/* mobile or small device */
+@media (min-width: 320px) and (max-width: 500px) {
+    .banner__heading {
+        font-size: 60px;
+    }
+
+    .section-five-container {
+        width: 100%;
+    }
+
+}
+
+/* tab or ipad device */
+@media (min-width: 501px) and (max-width: 768px) {
+    .banner__heading {
+        font-size: 80px;
+    }
+
+    .section-five-container {
+        width: 80%;
+    }
+
+    .line-animated {
+        width: 100%;
+    }
+}
+
+/* desktop or large device */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .banner__heading {
+        font-size: 120px;
+    }
+
+    .section-five-container {
+        width: 60%;
+    }
+
+
+}
